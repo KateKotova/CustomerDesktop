@@ -6,7 +6,6 @@
 ![Скриншот](./screenshots/NIJANUS_Customer_Desktop_0.102__5.jpg)
 ![Скриншот](./screenshots/NIJANUS_Customer_Desktop_0.102__6.jpg)
 ![Скриншот](./screenshots/NIJANUS_Customer_Desktop_0.102__7.jpg)
-![Скриншот](./screenshots/NIJANUS_Customer_Desktop_0.102__8.jpg)
 
 ## Средства разработки
 - **Среда разработки**: Adobe Flash Professional CS3 (клиентское приложение).
