@@ -1,0 +1,29 @@
+адрес:
+http://localhost/RequestsPHPFiles/SelectMenuButtonsLabels.php?HostName=localhost&UserName=root&UserPassword=&DatabaseName=db_TA7&MenuButtonsTableName=v8_reference170&MenuButtonsLablesColumnName=V8_Description&OrderingColumnName=V8_Code&OrderingAscentSign=1
+
+результат:  
+DVDnew Хиты1 Хиты2 DVD1 DVD2 Blu-Ray Игры ИгрыПК DVD-Музыка CD-Музыка
+
+HostName=localhost&
+UserName=root&
+UserPassword=&
+DatabaseName=db_TA7&
+MenuButtonsTableName=v8_reference170&
+MenuButtonsLablesColumnName=V8_Description&
+OrderingColumnName=V8_Code&
+OrderingAscentSign=1
+
+
+SELECT `V8_Description`
+FROM `v8_reference170`
+ORDER BY `V8_Code` ASC
+
+
+
+
+
+
+
+
+
+

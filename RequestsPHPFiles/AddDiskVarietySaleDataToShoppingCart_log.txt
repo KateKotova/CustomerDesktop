@@ -1,0 +1,72 @@
+﻿адрес:
+http://localhost/RequestsPHPFiles/AddDiskVarietySaleDataToShoppingCart.php?HostName=localhost&UserName=root&UserPassword=&DatabaseName=db_TA7&ShoppingCartTableName=korz&ShoppingCartIDsColumnName=id&ShoppingCartNomenclaturesIDsColumnName=disk_id&NomenclatureIDValue=1&ShoppingCartDisksVarietiesIDsColumnName=raz_id&DiskVarietyIDValue=D&ShoppingCartCostsColumnName=cena&CostValue=308.00&ShoppingCartCellsNumbersColumnName=cell_num&CellNumberValue=E
+
+результат:  
+  ИўФARЯ„п�a_ad  [PAdЯ„п�a_ad  202.00  z¦Н5AQЯ„п�a_ad    ИўФARЯ„п�a_ad  [bAdЯ„п�a_ad   z¦Н6AQЯ„п�a_ad  
+
+
+HostName=localhost&
+UserName=root&
+UserPassword=&
+DatabaseName=db_TA7&
+
+ShoppingCartTableName=korz&
+ShoppingCartIDsColumnName=id&
+
+ShoppingCartNomenclaturesIDsColumnName=disk_id&
+NomenclatureIDValue=1&
+
+ShoppingCartDisksVarietiesIDsColumnName=raz_id&
+DiskVarietyIDValue=D&
+
+ShoppingCartCostsColumnName=cena&
+CostValue=303.00&
+
+ShoppingCartCellsNumbersColumnName=cell_num&
+CellNumberValue=E
+
+
+
+CREATE TABLE IF NOT EXISTS db_TA7.korz
+(
+    id BIGINT UNSIGNED ZEROFILL NOT NULL PRIMARY KEY,
+    disk_id BINARY( 16 ) NULL,
+    raz_id BINARY( 16 ) NULL,
+    cena DECIMAL( 15, 2 ) NULL,
+    cell_num BINARY( 16 ) NULL
+)
+
+SELECT ( MAX( id ) + 1 ) AS id
+FROM db_TA7.korz
+
+INSERT INTO db_TA7.korz ( id, disk_id, raz_id, cena, cell_num )
+VALUES 
+(
+    2,
+    UNHEX('A'),
+    UNHEX('B'),
+    202.00,
+    UNHEX('C')
+)
+
+db_TA7.korz
+db_TA7.korz.id
+
+db_TA7.korz.disk_id
+db_TA7.korz.disk_id_value
+
+db_TA7.korz.raz_id
+db_TA7.korz.raz_id_value
+
+db_TA7.korz.cena
+db_TA7.korz.cena_value
+
+db_TA7.korz.cell_num
+db_TA7.korz.cell_num_value
+
+
+
+
+
+
+

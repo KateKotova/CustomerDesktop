@@ -1,0 +1,29 @@
+адрес:
+http://localhost/RequestsPHPFiles/SelectDiskGroupCode.php?HostName=localhost&UserName=root&UserPassword=&DatabaseName=db_TA7&NomenclaturesTableName=v8_reference118&NomenclaturesAticlesColumnName=V8_Fld312&ImageAticleValue=3&NomenclaturesGroupsCodesColumnName=V8_Fld341
+
+результат:
+000000015
+
+
+HostName=localhost&
+UserName=root&
+UserPassword=&
+DatabaseName=db_TA7&
+
+NomenclaturesTableName=v8_reference118&
+NomenclaturesAticlesColumnName=V8_Fld312&
+ImageAticleValue=3&
+NomenclaturesGroupsCodesColumnName=V8_Fld341
+
+
+SELECT db_TA7.v8_reference118.V8_Fld341
+FROM db_TA7.v8_reference118
+WHERE db_TA7.v8_reference118.V8_Fld312 = 3
+LIMIT 1
+
+db_TA7.v8_reference118
+db_TA7.v8_reference118.V8_Fld312
+db_TA7.v8_reference118.V8_Fld341
+
+
+

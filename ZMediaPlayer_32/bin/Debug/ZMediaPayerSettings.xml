@@ -1,0 +1,74 @@
+﻿<ZMediaPayerSettings>
+
+	<!--URL-адрес медиа-файла для проигрывания.-->
+	<MediaFileURL>
+		http://localhost/Video/00000000000008_video1.avi
+	</MediaFileURL>
+
+	<!--Mедиа-тип, указывающий является ли файл аудио или видео.-->
+	<MediaTypeName>
+		VIDEO
+	</MediaTypeName>
+
+	<!--Интервал в миллисекундах таймера закрытия плеера -
+	интервал между наступлением паузы или остановки проигрывания меда-файла
+	и моментом закрытия плеера, который считается бездействующим.-->
+	<PlayerClosingTimerDelay>
+		300000
+	</PlayerClosingTimerDelay>
+
+	<!--Время в миллисекундах длительности эффекта изменения видимости -
+	время, в течение которого осуществляется эффект появления
+	или исчезновения формы.-->
+	<VisibleChangingEffectTime>
+		200
+	</VisibleChangingEffectTime>
+
+	<!--Интервал в миллисекундах таймера эффекта изменения видимости.-->
+	<VisibleChangingEffectTimerDeley>
+		20
+	</VisibleChangingEffectTimerDeley>
+
+	<!--Интервал в миллисекундах таймера сокрытия формы звука -
+	интервал между моментом покидания кнопки звука
+	или формы звука курсором мыши и моментом сокрытия формы звука.-->
+	<SoundFormHidingTimerDeley>
+		1000
+	</SoundFormHidingTimerDeley>
+
+	<!--Абсцисса.-->
+	<X>
+		64
+	</X>
+
+	<!--Ордината.-->
+	<Y>
+		64
+	</Y>
+
+	<!--Ширина.-->
+	<Width>
+		1311
+	</Width>
+
+	<!--Высота.-->
+	<Height>
+		698
+	</Height>
+
+	<!--Доля ширины кнопки плеера от её высоты.-->
+	<ButtonWidthToHeightRatio>
+		1.3
+	</ButtonWidthToHeightRatio>
+
+	<!--Доля ширины трека прокрутки длительности от ширины командной панели.-->
+	<DurationTrackbarWidthToCommandPanelWidthRatio>
+		0.6
+	</DurationTrackbarWidthToCommandPanelWidthRatio>
+
+	<!--Доля высота формы звука от ширины командной панели.-->
+	<SoundFormHeightToCommandPanelWidthRatio>
+		0.31
+	</SoundFormHeightToCommandPanelWidthRatio>
+
+</ZMediaPayerSettings>

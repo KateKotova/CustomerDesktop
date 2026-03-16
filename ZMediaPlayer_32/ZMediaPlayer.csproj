@@ -1,0 +1,170 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C2635590-CDB4-4238-B519-4F1E92160856}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>zap</RootNamespace>
+    <AssemblyName>ZMediaPlayer</AssemblyName>
+    <ApplicationIcon>zmp.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.DirectX.AudioVideoPlayback, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ColorIncrementation.cs" />
+    <Compile Include="FormBackground.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBackground.Designer.cs">
+      <DependentUpon>FormBackground.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSound.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSound.Designer.cs">
+      <DependentUpon>FormSound.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFormShowingStatus.cs" />
+    <Compile Include="MediaTypes.cs" />
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormBackground.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormBackground.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSound.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormSound.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SkinTrackbar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SkinTrackbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SkinButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SkinButton.Designer.cs">
+      <DependentUpon>SkinButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SkinEngine.cs">
+    </Compile>
+    <Compile Include="SkinTrackbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SkinTrackbar.Designer.cs">
+      <DependentUpon>SkinTrackbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SkinTrackbarProgressLineEndType.cs" />
+    <Compile Include="SkinTrackbarProgressLinePaletteBrightness.cs" />
+    <Compile Include="Tracer.cs" />
+    <Compile Include="Win32.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\LeftUpScreenBorder.png" />
+    <None Include="Resources\UpScreenBorder.png" />
+    <None Include="Resources\LeftScreenBorder.png" />
+    <None Include="Resources\RightScreenBorder.png" />
+    <None Include="Resources\DownCommandBorder.png" />
+    <None Include="Resources\RightUpScreenBorder.png" />
+    <None Include="Resources\ButtonPlay.png" />
+    <None Include="Resources\ButtonPause.png" />
+    <None Include="Resources\UpCommandBorder.png" />
+    <None Include="Resources\LeftCommandBorder.png" />
+    <None Include="Resources\RightCommandBorder.png" />
+    <None Include="Resources\RightDownCommandBorder.png" />
+    <None Include="Resources\RightUpCommandBorder.png" />
+    <None Include="Resources\LeftDownCommandBorder.png" />
+    <None Include="Resources\LeftUpCommandBorder.png" />
+    <None Include="Resources\ButtonFullScreen.png" />
+    <None Include="Resources\ButtonSmallScreen.png" />
+    <None Include="Resources\ButtonExit.png" />
+    <None Include="Resources\ButtonSound.png" />
+    <None Include="Resources\TrackbarVertical.png" />
+    <None Include="Resources\TrackbarDownBorder.png" />
+    <None Include="Resources\TrackbarHorizontal.png" />
+    <None Include="Resources\TrackbarLeftBorder.png" />
+    <None Include="Resources\TrackbarRightBorder.png" />
+    <None Include="Resources\TrackbarUpBorder.png" />
+    <None Include="Resources\TrackThumbVertical.png" />
+    <None Include="Resources\TrackThumbHorizontal.png" />
+    <None Include="Resources\DownSoundBorder.png" />
+    <None Include="Resources\LeftDownSoundBorder.png" />
+    <None Include="Resources\RightDownSoundBorder.png" />
+    <Content Include="bin\Debug\ZMediaPayerSettings.xml" />
+    <Content Include="bin\Debug\ZMediaPayerSettings2.xml" />
+    <None Include="Resources\Preloader192.gif" />
+    <None Include="Resources\Preloader32.gif" />
+    <None Include="Resources\Preloader64.gif" />
+    <None Include="Resources\Preloader128.gif" />
+    <Content Include="zmp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

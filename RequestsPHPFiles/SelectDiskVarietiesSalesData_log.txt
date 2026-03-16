@@ -1,0 +1,91 @@
+﻿адрес:
+http://localhost/RequestsPHPFiles/SelectDiskVarietiesSalesData.php?HostName=localhost&UserName=root&UserPassword=&DatabaseName=db_TA7&RetailGoodsTableName=v8_accumreg845&RetailGoodsNomenclaturesIDsColumnName=V8_Fld5206&RetailGoodsDisksVarietiesIDsColumnName=V8_Fld5207&RetailGoodsCostsColumnName=V8_Fld5211&RetailGoodsCellsNumbersColumnName=V8_Fld5205&RetailGoodsSalesDataOrderingColumnName=V8_Fld5207&RetailGoodsSalesDataOrderingAscendantSign=1&NomenclaturesTableName=v8_reference118&NomenclaturesIDsColumnName=V8_ID&NomenclaturesArticlesColumnName=V8_Fld312&ImageArticleValue=1&DisksVarietiesReferencesTableName=v8_inforeg793&DisksVarietiesReferencesNomenclaturesIDsColumnName=V8_Fld4743&DisksVarietiesReferencesDisksVarietiesCharacteristicsIDsColumnName=V8_Fld4745&DisksVarietiesReferencesCharacteristicsOrderingColumnName=V8_Fld4744&DisksVarietiesCharacteristicsTableName=v8_reference165&DisksVarietiesCharacteristicsIDsColumnName=V8_ID
+
+результат:  
+C8A216D4415211DF84EF0004615F6164  015B1C50416411DF84EF0004615F6164  202.00  7AA6CD35415111DF84EF0004615F6164
+C8A216D4415211DF84EF0004615F6164  015B1C62416411DF84EF0004615F6164          7AA6CD36415111DF84EF0004615F6164  
+
+HostName=localhost&
+UserName=root&
+UserPassword=&
+DatabaseName=db_TA7&
+
+RetailGoodsTableName=v8_accumreg845&
+RetailGoodsNomenclaturesIDsColumnName=V8_Fld5206&
+RetailGoodsDisksVarietiesIDsColumnName=V8_Fld5207&
+RetailGoodsCostsColumnName=V8_Fld5211&
+RetailGoodsCellsNumbersColumnName=V8_Fld5205&
+
+RetailGoodsSalesDataOrderingColumnName=V8_Fld5207&
+RetailGoodsSalesDataOrderingAscendantSign=1&
+
+NomenclaturesTableName=v8_reference118&
+NomenclaturesIDsColumnName=V8_ID&
+NomenclaturesArticlesColumnName=V8_Fld312&
+ImageArticleValue=1&
+
+DisksVarietiesReferencesTableName=v8_inforeg793&
+DisksVarietiesReferencesNomenclaturesIDsColumnName=V8_Fld4743&
+DisksVarietiesReferencesDisksVarietiesCharacteristicsIDsColumnName=V8_Fld4745&
+DisksVarietiesReferencesCharacteristicsOrderingColumnName=V8_Fld4744&
+
+DisksVarietiesCharacteristicsTableName=v8_reference165&
+DisksVarietiesCharacteristicsIDsColumnName=V8_ID
+
+
+SELECT
+	db_TA7.v8_accumreg845.V8_Fld5206,
+	db_TA7.v8_accumreg845.V8_Fld5207,
+	MAX( db_TA7.v8_accumreg845.V8_Fld5211 ) AS V8_Fld5211,
+	db_TA7.v8_accumreg845.V8_Fld5205
+FROM db_TA7.v8_accumreg845
+    INNER JOIN db_TA7.v8_inforeg793
+    ON
+            db_TA7.v8_accumreg845.V8_Fld5206 = db_TA7.v8_inforeg793.V8_Fld4743 AND
+            db_TA7.v8_accumreg845.V8_Fld5207 = db_TA7.v8_inforeg793.V8_Fld4744
+        INNER JOIN db_TA7.v8_reference165
+        ON db_TA7.v8_inforeg793.V8_Fld4745 = db_TA7.v8_reference165.V8_ID            
+WHERE db_TA7.v8_accumreg845.V8_Fld5206 =
+(
+    SELECT db_TA7.v8_reference118.V8_ID
+    FROM db_TA7.v8_reference118
+    WHERE db_TA7.v8_reference118.V8_Fld312 = 1
+)
+GROUP BY db_TA7.v8_accumreg845.V8_Fld5207
+ORDER BY db_TA7.v8_accumreg845.V8_Fld5207 ASC
+
+
+db_TA7.v8_accumreg845
+db_TA7.v8_accumreg845.V8_Fld5206
+db_TA7.v8_accumreg845.V8_Fld5207
+db_TA7.v8_accumreg845.V8_Fld5211
+db_TA7.v8_accumreg845.V8_Fld5205
+db_TA7.v8_accumreg845.V8_Fld5207
+ddb_TA7.v8_accumreg845.V8_Fld5207_ASC
+
+db_TA7.v8_reference118
+db_TA7.v8_reference118.V8_ID
+db_TA7.v8_reference118.V8_Fld312
+db_TA7.v8_reference118.V8_Fld312_value
+
+db_TA7.v8_inforeg793
+db_TA7.v8_inforeg793.V8_Fld4743
+db_TA7.v8_inforeg793.V8_Fld4744
+db_TA7.v8_inforeg793.V8_Fld4745
+
+db_TA7.v8_reference165
+db_TA7.v8_reference165.V8_ID            
+
+
+
+
+
+
+
+
+
+
+
+
+
+

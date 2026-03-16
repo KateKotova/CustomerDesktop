@@ -1,0 +1,39 @@
+﻿<ShopingCartScreenStaticParameters>
+
+	<!--Интервал в миллисекундах таймера закрытия -
+	интервал между появлением экрана корзины покупок
+	и наступлением момента необходимости его закрытия.-->
+	<ClosingTimerDelay>
+		2000
+	</ClosingTimerDelay>
+
+	<!--Время в миллисекундах длительности эффекта изменения видимости -
+	время, в течение которого осуществляется эффект появления
+	или исчезновения спрайта с эффектом.-->
+	<EffectTime>
+		400
+	</EffectTime>
+
+	<!--Коэффициент отношения реальной скорости эффекта появления
+	к реальной скорости эффекта исчезновения.-->
+	<ShowingEffectVelocityToHidingEffectVelocityRatio>
+		2.5
+	</ShowingEffectVelocityToHidingEffectVelocityRatio>
+
+	<!--Коэффициент отношения высоты текстового поля сообщения
+	к высоте спрайт окна.-->
+	<MessageTextFieldHeightToWindowSpriteHeightRatio>
+		0.08
+	</MessageTextFieldHeightToWindowSpriteHeightRatio>
+
+	<!--Коэффициент сжатия ширины строки текстового поля сообщения.-->
+	<MessageTextFieldLineWidthCompressionRatio>
+		5
+	</MessageTextFieldLineWidthCompressionRatio>
+
+	<!--Коэффициент сжатия высоты строки текстового поля сообщения.-->
+	<MessageTextFieldLineHeightCompressionRatio>
+		1.1
+	</MessageTextFieldLineHeightCompressionRatio>
+
+</ShopingCartScreenStaticParameters>

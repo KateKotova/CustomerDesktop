@@ -1,0 +1,25 @@
+﻿<ImagesLineStaticParameters>
+
+	<!--Максимальный модуль смещения от точки нажатия до точки отпускания
+	кнопки мыши по оси абсцисс в области клика мыши.-->
+	<ClickXMaximumAbsoluteOffset>
+		30
+	</ClickXMaximumAbsoluteOffset>
+
+	<!--Минимальный интервал времени совершения клика мышью.-->
+	<ClickTimeMinimumInterval>
+		250
+	</ClickTimeMinimumInterval>
+
+	<!--Максимальный интервал времени совершения клика мышью.-->
+	<ClickTimeMaximumInterval>
+		2500
+	</ClickTimeMaximumInterval>
+
+	<!--Модуль ускорения равнозамедленного движения
+	в пикселях в миллисекунду за миллисекунду.-->
+	<DeceleratedMotionAbsoluteAcceleRation>
+		0.0004
+	</DeceleratedMotionAbsoluteAcceleRation>
+
+</ImagesLineStaticParameters>

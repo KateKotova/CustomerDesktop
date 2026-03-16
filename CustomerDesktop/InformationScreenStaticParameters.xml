@@ -1,0 +1,286 @@
+﻿<InformationScreenStaticParameters>
+
+	<!--=====================================================================-->
+	<!--Временные интервалы.-->
+
+	<!--Задержка в миллисекундах таймера минимального показа -
+	задержка между появлением экрана информации и наступлением момента,
+	когда он уже может передавать событие клика мыши на кнопке выхода.-->
+	<MinimumShowingTimerDelay>
+		1000
+	</MinimumShowingTimerDelay>
+
+	<!--Время в миллисекундах длительности внешнего эффекта
+	изменения видимости - время, в течение которого осуществляется
+	эффект появления или исчезновения внешнего спрайта с эффектом.-->
+	<OuterEffectTime>
+		1000
+	</OuterEffectTime>
+
+	<!--Коэффициент отношения реальной скорости внешнего эффекта появления
+	к реальной скорости внешнего эффекта исчезновения.-->
+	<OuterEffectShowingVelocityToHidingVelocityRatio>
+		1
+	</OuterEffectShowingVelocityToHidingVelocityRatio>
+
+	<!--Время в миллисекундах длительности эффекта изменения видимости
+	проекции перспективы изображения диска - время, в течение которого
+	осуществляется эффект появления или исчезновения спрайта с эффектом
+	проекции перспективы изображения диска.-->
+	<ProjectionEffectTime>
+		500
+	</ProjectionEffectTime>
+
+	<!--Коэффициент отношения реальной скорости эффекта появления
+	проекции перспективы изображения диска к реальной скорости
+	эффекта исчезновения проекции перспективы изображения диска.-->
+	<ProjectionEffectShowingVelocityToHidingVelocityRatio>
+		1.1
+	</ProjectionEffectShowingVelocityToHidingVelocityRatio>
+
+	<!--=====================================================================-->
+	<!--Обрамляющие прямоугольники.-->
+
+	<!--Коэффициент отношения отступа от края прямоугольника информации
+	до внешнего прямоугльника без бордюра
+	к большей стороне прямоугольника информации.-->
+	<OuterRectangleWBIndentionToGreaterInformationRectangleSideRatio>
+		0.03
+	</OuterRectangleWBIndentionToGreaterInformationRectangleSideRatio>
+	
+	<!--Коэффициент отношения отступа от края внешнего прямоугльника без бордюра
+	до внутреннего прямоугльника к большей стороне
+	внешнего прямоугльника без бордюра.-->
+	<InnerRectangleIndentionToGreaterOuterRectangleWBSideRatio>
+		0.016
+	</InnerRectangleIndentionToGreaterOuterRectangleWBSideRatio>
+
+	<!--Коэффициент отношения ширины прямоугольника изображений
+	к ширине внутреннего прямоугольника.-->
+	<ImagesRectangleWidthToInnerRectangleWidthRatio>
+		0.375
+	</ImagesRectangleWidthToInnerRectangleWidthRatio>
+
+	<!--=====================================================================-->
+	<!--Элементы прямоугольника изображений.-->
+
+	<!--Коэффициент отношения высоты прямоугольника изображения диска
+	к высоте прямоугольника изображений.-->
+	<DiskImageRectangleHeightToImagesRectangleHeightRatio>
+		0.7608695652173914
+	</DiskImageRectangleHeightToImagesRectangleHeightRatio>
+
+	<!--Коэффициент отношения ширины границ проекции перспективы
+	изображения диска и ширины границ прямоугольника изображения диска.-->
+	<DiskImagePerspectiveProjBndsWidthToDiskImageRectBndsWidthRatio>
+		0.7
+	</DiskImagePerspectiveProjBndsWidthToDiskImageRectBndsWidthRatio>
+
+	<!--Коэффициент отношения высоты границ проекции перспективы
+	изображения диска и высоты границ прямоугольника изображения диска.-->
+	<DiskImagePerspectiveProjBndsHeightToDiskImageRectBndsHeightTRatio>
+		0.85
+	</DiskImagePerspectiveProjBndsHeightToDiskImageRectBndsHeightTRatio>
+
+	<!--=====================================================================-->
+	<!--Проекции перспективы изображения диска.-->
+
+	<!--Угол наклона в градусах проекции перспективы
+	верхней грани изображения диска к оси абсцисс.-->
+	<DiskImageTopPerspectiveProjectionAngle>
+		-5
+	</DiskImageTopPerspectiveProjectionAngle>
+
+	<!--Угол наклона в градусах проекции перспективы
+	нижней грани изображения диска к оси абсцисс.-->
+	<DiskImageBottomPerspectiveProjectionAngle>
+		15
+	</DiskImageBottomPerspectiveProjectionAngle>
+
+	<!--Коэффициент отношения ширины проекции перспективы боковины
+	изображения диска к ширине прямоугольника изображения диска.-->
+	<DiskImageSidewallPerspectiveProjWidthToDiskImageRectWidth>
+		0.07
+	</DiskImageSidewallPerspectiveProjWidthToDiskImageRectWidth>
+
+	<!--=====================================================================-->
+	<!--Строка слайдов.-->
+
+	<!--Коэффициент отношения ширины спрайта изображения
+	строки слайдов к высоте.-->
+	<SlidesLineImageSpriteWidthToHeightRatio>
+		1.36
+	</SlidesLineImageSpriteWidthToHeightRatio>
+
+	<!--Коэффициент отношения стороны пиктограммы мультимедиа-файла диска
+	к большей стороне спрайта изображения строки слайдов.-->
+	<DiskMultimediaFileIconSideToGreaterSlideSideRatio>
+		0.6
+	</DiskMultimediaFileIconSideToGreaterSlideSideRatio>
+
+	<!--Альфа-прозрачность пиктограммы мультимедиа-файла диска.-->
+	<DiskMultimediaFileIconAlpha>
+		0.65
+	</DiskMultimediaFileIconAlpha>
+
+	<!--=====================================================================-->
+	<!--Элементы прямоугольника описания диска.-->
+
+	<!--Коэффициент отношения высоты прямоугольника описания диска
+	к высоте прямоугольника текстов.-->
+	<DiskDescriptionRectangleHeightToTextsRectangleHeightRatio>
+		0.3804347826086957
+	</DiskDescriptionRectangleHeightToTextsRectangleHeightRatio>
+
+	<!--Коэффициент отношения ширины полоса прокрутки описания диска
+	к ширине прямоугольника описания диска.-->
+	<DiskDescrScrollBarWidthToDiskDescrRectangleWidthRatio>
+		0.08
+	</DiskDescrScrollBarWidthToDiskDescrRectangleWidthRatio>
+
+	<!--Коэффициент отношения высоты бегунка полосы прокрутки описания диска
+	к высоте её дорожки.-->
+	<DiskDescriptionScrollBarThumbHeightToTrackHeightRatio>
+		0.3333333333333333
+	</DiskDescriptionScrollBarThumbHeightToTrackHeightRatio>
+
+	<!--=====================================================================-->
+	<!--Текстовое поле описания диска.-->
+
+	<!--Коэффициент сжатия ширины строки текстового поля описания диска.-->
+	<DiskDescriptionTextFieldLineWidthCompressionRatio>
+		5
+	</DiskDescriptionTextFieldLineWidthCompressionRatio>
+
+	<!--Коэффициент сжатия высоты строки текстового поля описания диска.-->
+	<DiskDescriptionTextFieldLineHeightCompressionRatio>
+		1.2
+	</DiskDescriptionTextFieldLineHeightCompressionRatio>
+
+	<!--Минимальное количество символов в строке
+	текстового поля описания диска.-->
+	<DiskDescriptionTextFieldLineSymbolsMinimumCount>
+		75
+	</DiskDescriptionTextFieldLineSymbolsMinimumCount>
+
+	<!--Минимальное количество строк в текстовом поле описания диска.-->
+	<DiskDescriptionTextFieldLinesMinimumCount>
+		12
+	</DiskDescriptionTextFieldLinesMinimumCount>
+
+	<!--Вертикальный межстрочный интервал в текстовом поле описания диска.-->
+	<DiskDescriptionTextFieldLinesLeadingVerticalSpace>
+		0
+	</DiskDescriptionTextFieldLinesLeadingVerticalSpace>
+
+	<!--=====================================================================-->
+	<!--Таблица примечаний.-->
+
+	<!--Коэффициент отношения высоты таблицы примечаний
+	к высоте прямоугольника таблиц.-->
+	<NotesGridHeightToGridsRectangleHeightRatio>
+		0.07407407407407407
+	</NotesGridHeightToGridsRectangleHeightRatio>
+
+	<!--Коэффициент сжатия ширины текста ячейки таблицы примечаний.-->
+	<NotesGridCellTextWidthCompressionRatio>
+		3
+	</NotesGridCellTextWidthCompressionRatio>
+
+	<!--Коэффициент сжатия высоты текста ячейки таблицы примечаний.-->
+	<NotesGridCellTextHeightCompressionRatio>
+		0.7
+	</NotesGridCellTextHeightCompressionRatio>
+
+	<!--=====================================================================-->
+	<!--Элементы прямоугольника кнопок выбора.-->
+
+	<!--Коэффициент отношения высоты прямоугольника кнопок выбора
+	к высоте прямоугольника таблиц.-->
+	<ChoiceButtonsRectangleHeightToGridsRectangleHeightRatio>
+		0.14814814814814814
+	</ChoiceButtonsRectangleHeightToGridsRectangleHeightRatio>
+
+	<!--Коэффициент отношения максимальной ширины кнопки выбора
+	к ширине прямоугольника кнопок выбора.-->
+	<ChoiceButtonMaximumWidthToChoiceButtonsRectangleWidthRatio>
+		0.3333333333333333
+	</ChoiceButtonMaximumWidthToChoiceButtonsRectangleWidthRatio>
+
+	<!--Текстовая метка для кнопки выбора.-->
+	<ChoiceButtonLabel>
+		Выбрать
+	</ChoiceButtonLabel>
+
+	<!--=====================================================================-->
+	<!--Кнопка выхода.-->
+
+	<!--Максимальный коэффициент отношения стороны пиктограммы кнопки выхода
+	к соответствующей стороне кнопки выхода - коэффициент, максимальный из двух:
+	отношения ширины пиктограммы к ширине кнопки выхода
+	и отношения высоты пиктограммы к высоте кнопки выхода.-->
+	<ExitButtonIconSideToExitButtonSameSideMaximumRatio>
+		0.55
+	</ExitButtonIconSideToExitButtonSameSideMaximumRatio>
+
+	<!--=====================================================================-->
+	<!--Таблица стоимостей.-->
+
+	<!--Коэффициент отношения высоты таблицы стоимостей
+	к высоте прямоугольника таблиц.-->
+	<CostsGridHeightToGridsRectangleHeightRatio>
+		0.1111111111111111
+	</CostsGridHeightToGridsRectangleHeightRatio>
+
+	<!--Коэффициент сжатия ширины текста ячейки таблицы стоимостей.-->
+	<CostsGridCellTextWidthCompressionRatio>
+		1
+	</CostsGridCellTextWidthCompressionRatio>
+
+	<!--Коэффициент сжатия высоты текста ячейки таблицы стоимостей.-->
+	<CostsGridCellTextHeightCompressionRatio>
+		0.7
+	</CostsGridCellTextHeightCompressionRatio>
+
+	<!--=====================================================================-->
+	<!--Таблица характеристик.-->
+
+	<!--Коэффициент отношения ширины области названий характеристик
+	к ширине прямоугольника таблиц.-->
+	<CharacteristicsNamesAreaWidthToGridsRectangleWidthRatio>
+		0.2
+	</CharacteristicsNamesAreaWidthToGridsRectangleWidthRatio>
+
+	<!--Коэффициент отношения ширины символа таблицы характеристик
+	к ширине таблицы характеристик.-->
+	<CharacteristicsGridSymbolWidthToWidthRatio>
+		0.004
+	</CharacteristicsGridSymbolWidthToWidthRatio>
+
+	<!--Коэффициент сжатия ширины текста ячейки
+	столбца назаний характеристик таблицы характеристик.-->
+	<CharacteristicsGridNamesColumnCellTextWidthCompressionRatio>
+		2.6
+	</CharacteristicsGridNamesColumnCellTextWidthCompressionRatio>
+
+	<!--Коэффициент сжатия высоты текста ячейки
+	столбца назаний характеристик таблицы характеристик.-->
+	<CharacteristicsGridNamesColumnCellTextHeightCompressionRatio>
+		0.9
+	</CharacteristicsGridNamesColumnCellTextHeightCompressionRatio>
+
+	<!--Коэффициент сжатия ширины текста ячейки
+	столбца категорий диска таблицы характеристик.-->
+	<CharacteristicsGridCategoriesColumnCellTextWidthCompressionRatio>
+		2.6
+	</CharacteristicsGridCategoriesColumnCellTextWidthCompressionRatio>
+
+	<!--Коэффициент сжатия высоты текста ячейки
+	столбца категорий диска таблицы характеристик.-->
+	<CharacteristicsGridCategoriesColumnCellTextHeightCompressionRatio>
+		0.9
+	</CharacteristicsGridCategoriesColumnCellTextHeightCompressionRatio>
+
+	<!--=====================================================================-->
+
+</InformationScreenStaticParameters>

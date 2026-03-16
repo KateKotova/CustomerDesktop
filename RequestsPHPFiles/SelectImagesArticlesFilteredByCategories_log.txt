@@ -1,0 +1,77 @@
+адрес:
+http://localhost/RequestsPHPFiles/SelectImagesCodesFilteredByCategories.php?HostName=localhost&UserName=root&UserPassword=&DatabaseName=db_TA3&TradeAutomatonsAndGoodsTableName=ta_tov&TradeAutomatonsAndGoodsImagesCodesColumnName=V188_Code&NomenclaturesTableName=v8_reference118&NomenclaturesIDsColumnName=V8_ID&NomenclaturesImagesCodesColumnName=V8_Code&GoodsCategoriesAndNomenclaturesTableName=v8_reference118_vt119&GoodsCategoriesAndNomenclaturesNomenclaturesIDsColumnName=V8_ID&GoodsCategoriesAndNomenclaturesGoodsCategoriesIDsColumnName=V8_Fld345&GoodsCategoriesTableName=v8_reference168&GoodsCategoriesIDsColumnName=V8_ID&GoodsCategoriesCodesColumnName=V8_Code&GoodCategoryCodeValue=1&OrderingColumnName=V8_Description&ImagesOrderingByOrderingColumnIsAscendant=1
+результат:  
+00000000162 00000000160 00000000158 00000000163 00000000161 00000000159
+
+HostName=localhost&
+UserName=root&
+UserPassword=&
+DatabaseName=db_TA3&
+TradeAutomatonsAndGoodsTableName=ta_tov&
+TradeAutomatonsAndGoodsImagesCodesColumnName=V188_Code&
+NomenclaturesTableName=v8_reference118&
+NomenclaturesIDsColumnName=V8_ID&
+NomenclaturesImagesCodesColumnName=V8_Code&
+GoodsCategoriesAndNomenclaturesTableName=v8_reference118_vt119&
+GoodsCategoriesAndNomenclaturesNomenclaturesIDsColumnName=V8_ID&
+GoodsCategoriesAndNomenclaturesGoodsCategoriesIDsColumnName=V8_Fld345&
+GoodsCategoriesTableName=v8_reference168&
+GoodsCategoriesIDsColumnName=V8_ID&
+GoodsCategoriesCodesColumnName=V8_Code&
+GoodCategoryCodeValue=1&
+OrderingColumnName=V8_Description&
+ImagesOrderingByOrderingColumnIsAscendant=1
+
+
+SELECT DISTINCT db_TA7.v8_reference118.V8_Fld312
+FROM db_TA7.v8_accumreg845
+    INNER JOIN db_TA7.v8_reference118
+    ON db_TA7.v8_accumreg845.V8_Fld5206 = db_TA7.v8_reference118.V8_ID
+        INNER JOIN db_TA7.v8_reference118_vt119
+        ON db_TA7.v8_reference118.V8_ID = db_TA7.v8_reference118_vt119.V8_ID
+            INNER JOIN db_TA7.v8_reference168
+            ON db_TA7.v8_reference118_vt119.V8_Fld345 = db_TA7.v8_reference168.V8_ID
+WHERE
+    db_TA7.v8_accumreg845.V8_Fld5210 > 0 AND
+    db_TA7.v8_reference168.V8_Code     = 1
+ORDER BY db_TA7.v8_reference118.V8_Description ASC
+
+
+db_TA7.v8_accumreg845
+db_TA7.v8_accumreg845.V8_Fld5206
+db_TA7.v8_accumreg845.V8_Fld5210
+
+
+db_TA7.v8_reference118
+db_TA7.v8_reference118.V8_ID
+db_TA7.v8_reference118.V8_Fld312
+db_TA7.v8_reference118.V8_Description
+
+db_TA7.v8_reference118_vt119
+db_TA7.v8_reference118_vt119.V8_ID
+db_TA7.v8_reference118_vt119.V8_Fld345
+
+
+db_TA7.v8_reference168
+db_TA7.v8_reference168.V8_ID
+db_TA7.v8_reference168.V8_Code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+адрес:
+http://localhost/RequestsPHPFiles/SelectDiskSecondTypeNotes.php?HostName=localhost&UserName=root&UserPassword=&DatabaseName=db_TA7&NomenclaturesTableName=v8_reference118&NomenclaturesIDsColumnName=V8_ID&NomenclaturesArticlesColumnName=V8_Fld312&ImageAticleValue=1&NomenclaturesReleasesDatesColumnName=V8_Fld339&GoodsCategoriesAndNomenclaturesTableName=v8_reference118_vt119&GoodsCategoriesAndNomenclaturesNomenclaturesIDsColumnName=V8_ID&GoodsCategoriesAndNomenclaturesGoodsCategoriesIDsColumnName=V8_Fld345&GoodsCategoriesTableName=v8_reference168&GoodsCategoriesIDsColumnName=V8_ID&GoodsCategoriesNamesColumnName=V8_Description&PropertiesReferencesTableName=v8_inforeg715&PropertiesReferencesNomenclaturesIDsColumnName=V8_Fld4278_RRef&PropertiesReferencesPropertiesValuesIDsColumnName=V8_Fld4280_RRef&PropertiesValuesTableName=v8_reference88&PropertiesValuesIDsColumnName=V8_ID&PropertiesValuesNamesColumnName=V8_Description
+
+результат:
+Приключения 2009-10-30 3 часа до 14 лет 
+
+
+HostName=localhost&
+UserName=root&
+UserPassword=&
+DatabaseName=db_TA7&
+
+NomenclaturesTableName=v8_reference118&
+NomenclaturesIDsColumnName=V8_ID&
+NomenclaturesArticlesColumnName=V8_Fld312&
+ImageAticleValue=1&
+NomenclaturesReleasesDatesColumnName=V8_Fld339&
+
+GoodsCategoriesAndNomenclaturesTableName=v8_reference118_vt119&
+GoodsCategoriesAndNomenclaturesNomenclaturesIDsColumnName=V8_ID&
+GoodsCategoriesAndNomenclaturesGoodsCategoriesIDsColumnName=V8_Fld345&
+
+GoodsCategoriesTableName=v8_reference168&
+GoodsCategoriesIDsColumnName=V8_ID&
+GoodsCategoriesNamesColumnName=V8_Description&
+
+PropertiesReferencesTableName=v8_inforeg715&
+PropertiesReferencesNomenclaturesIDsColumnName=V8_Fld4278_RRef&
+PropertiesReferencesPropertiesValuesIDsColumnName=V8_Fld4280_RRef&
+
+PropertiesValuesTableName=v8_reference88&
+PropertiesValuesIDsColumnName=V8_ID&
+PropertiesValuesNamesColumnName=V8_Description
+
+
+
+SELECT db_TA7.v8_reference168.V8_Description
+FROM db_TA7.v8_reference168
+WHERE db_TA7.v8_reference168.V8_ID =
+(
+    SELECT db_TA7.v8_reference118_vt119.V8_Fld345
+    FROM db_TA7.v8_reference118_vt119
+    WHERE db_TA7.v8_reference118_vt119.V8_ID =
+    (
+        SELECT db_TA7.v8_reference118.V8_ID
+        FROM db_TA7.v8_reference118
+        WHERE v8_reference118.V8_Fld312 = 1
+        LIMIT 1
+    )
+    LIMIT 1
+)
+LIMIT 1
+
+SELECT db_TA7.v8_reference118.V8_Fld339
+FROM  db_TA7.v8_reference118
+WHERE v8_reference118.V8_Fld312 = 1
+LIMIT 1
+
+SELECT DISTINCT db_TA7.v8_reference88.V8_Description
+FROM db_TA7.v8_inforeg715
+    INNER JOIN db_TA7.v8_reference88
+    ON db_TA7.v8_inforeg715.V8_Fld4280_RRef = db_TA7.v8_reference88.V8_ID
+WHERE db_TA7.v8_inforeg715.V8_Fld4278_RRef =
+(
+    SELECT db_TA7.v8_reference118.V8_ID
+    FROM db_TA7.v8_reference118
+    WHERE db_TA7.v8_reference118.V8_Fld312 = 1
+    LIMIT 1
+)

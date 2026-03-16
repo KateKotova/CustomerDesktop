@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS korz
+(
+    id BINARY( 16 ) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    disk_id BINARY( 16 ) NULL,
+    raz_id BINARY( 16 ) NULL,
+    cena DECIMAL( 15, 2 ) NULL,
+    cell_num BINARY( 16 ) NULL
+)

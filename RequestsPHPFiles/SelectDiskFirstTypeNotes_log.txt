@@ -1,0 +1,58 @@
+адрес:
+http://localhost/RequestsPHPFiles/SelectDiskFirstTypeNotes.php?HostName=localhost&UserName=root&UserPassword=&DatabaseName=db_TA7&NomenclaturesTableName=v8_reference118&NomenclaturesIDsColumnName=V8_ID&NomenclaturesArticlesColumnName=V8_Fld312&ImageAticleValue=3&NomenclaturesCountriesNamesColumnName=V8_Fld321&NomenclaturesReleasesDatesColumnName=V8_Fld339&GoodsCategoriesAndNomenclaturesTableName=v8_reference118_vt119&GoodsCategoriesAndNomenclaturesNomenclaturesIDsColumnName=V8_ID&GoodsCategoriesAndNomenclaturesGoodsCategoriesIDsColumnName=V8_Fld345&GoodsCategoriesTableName=v8_reference168&GoodsCategoriesIDsColumnName=V8_ID&GoodsCategoriesNamesColumnName=V8_Description
+
+результат:
+Приключения РОССИЯ 2009-10-28
+
+
+HostName=localhost&
+UserName=root&
+UserPassword=&
+DatabaseName=db_TA7&
+
+NomenclaturesTableName=v8_reference118&
+NomenclaturesIDsColumnName=V8_ID&
+NomenclaturesArticlesColumnName=V8_Fld312&
+ImageAticleValue=3&
+NomenclaturesCountriesNamesColumnName=V8_Fld321&
+NomenclaturesReleasesDatesColumnName=V8_Fld339&
+
+GoodsCategoriesAndNomenclaturesTableName=v8_reference118_vt119&
+GoodsCategoriesAndNomenclaturesNomenclaturesIDsColumnName=V8_ID&
+GoodsCategoriesAndNomenclaturesGoodsCategoriesIDsColumnName=V8_Fld345&
+
+GoodsCategoriesTableName=v8_reference168&
+GoodsCategoriesIDsColumnName=V8_ID&
+GoodsCategoriesNamesColumnName=V8_Description
+
+
+
+SELECT db_TA7.v8_reference168.V8_Description
+FROM db_TA7.v8_reference168
+WHERE db_TA7.v8_reference168.V8_ID =
+(
+    SELECT db_TA7.v8_reference118_vt119.V8_Fld345
+    FROM db_TA7.v8_reference118_vt119
+    WHERE db_TA7.v8_reference118_vt119.V8_ID =
+    (
+        SELECT db_TA7.v8_reference118.V8_ID
+        FROM db_TA7.v8_reference118
+        WHERE v8_reference118.V8_Fld312 = 60
+        LIMIT 1
+    )
+    LIMIT 1
+)
+LIMIT 1
+
+SELECT db_TA7.v8_reference118.V8_Fld321
+FROM  db_TA7.v8_reference118
+WHERE v8_reference118.V8_Fld312 = 3
+LIMIT 1
+
+SELECT db_TA7.v8_reference118.V8_Fld339
+FROM  db_TA7.v8_reference118
+WHERE v8_reference118.V8_Fld312 = 3
+LIMIT 1
+
+
+

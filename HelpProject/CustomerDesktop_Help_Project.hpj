@@ -1,0 +1,33 @@
+; This file is maintained by HCW. Do not modify this file directly.
+
+[OPTIONS]
+LCID=0x419 0x0 0x0 ; Русский
+REPORT=Yes
+CHARSET=204
+CONTENTS=Contents
+TITLE=NJANUS  CustomerDesktop 0.102  FULL Help
+COPYRIGHT=NJANUS CustomerDesktop 0.102  FULL Help
+CITATION=NJANUS  CustomerDesktop 0.102  FULL Help
+DEFFONT=Arial,8,0
+HLP=CustomerDesktop_0_102_FULL_Help.hlp
+
+[FILES]
+CustometDesctop_Help_Text.rtf
+
+[WINDOWS]
+main="",(0,0,600,950),60676,(r14876671),(r12632256),f3
+
+[CONFIG]
+BrowseButtons()
+
+[FONTS]
+a_BosaNova=a_BosaNova,,204
+Arial=Arial CYR,,204
+Franklin Gothic Demi Cond=Arial CYR,,204
+Franklin Gothic Medium Cond=Arial CYR,,204
+Gill Sans MT Ext Condensed Bold=Arial CYR,,204
+Gill Sans Ultra Bold Condensed=Arial CYR,,204
+Microsoft Sans Serif=Arial CYR,,204
+MS Reference Sans Serif=Arial CYR,,204
+Tahoma=Tahoma,,204
+Tw Cen MT Condensed Extra Bold=Arial CYR,,204

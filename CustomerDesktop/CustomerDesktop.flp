@@ -1,0 +1,98 @@
+﻿<flash_project name="CustomerDesktop" version="1">
+    <project_folder name="silin" expanded="false">
+        <project_folder name="bitmap" expanded="false">
+            <project_file path="./silin/bitmap/DistortImage.as" filetype="as" />
+        </project_folder>
+    </project_folder>
+    <project_folder name="nijanus" expanded="true">
+        <project_folder name="php" expanded="false">
+            <project_folder name="mySQL" expanded="false">
+                <project_file path="./nijanus/php/mySQL/MySQLURLsSelector.as" filetype="as" />
+                <project_file path="./nijanus/php/mySQL/MySQLConnectionAttributes.as" filetype="as" />
+                <project_file path="./nijanus/php/mySQL/MySQLDataSelector.as" filetype="as" />
+            </project_folder>
+            <project_file path="./nijanus/php/XMLDataPHPRequester.as" filetype="as" />
+            <project_file path="./nijanus/php/PHPRequester.as" filetype="as" />
+        </project_folder>
+        <project_folder name="display" expanded="false">
+            <project_file path="./nijanus/display/TranslucentBlackSprite.as" filetype="as" />
+            <project_file path="./nijanus/display/GlowButton.as" filetype="as" />
+            <project_file path="./nijanus/display/GlowScrollBar.as" filetype="as" />
+            <project_file path="./nijanus/display/ImagesLine.as" filetype="as" />
+            <project_file path="./nijanus/display/ImageSpriteEvent.as" filetype="as" />
+            <project_file path="./nijanus/display/RectangleWithPerimeterBorder.as" filetype="as" />
+            <project_file path="./nijanus/display/TextFieldsColumn.as" filetype="as" />
+            <project_file path="./nijanus/display/TextFieldsGrid.as" filetype="as" />
+            <project_file path="./nijanus/display/TranslucentGraySprite.as" filetype="as" />
+            <project_file path="./nijanus/display/GlowButtonParameters.as" filetype="as" />
+            <project_file path="./nijanus/display/TextFieldsColumnProperties.as" filetype="as" />
+            <project_file path="./nijanus/display/TextFieldsGridProperties.as" filetype="as" />
+            <project_file path="./nijanus/display/ExitGlowButton.as" filetype="as" />
+            <project_file path="./nijanus/display/ImageSprite.as" filetype="as" />
+            <project_file path="./nijanus/display/TetragonCornersCoordinates.as" filetype="as" />
+            <project_file path="./nijanus/display/AppearingWithIncreaseSprite.as" filetype="as" />
+            <project_file path="./nijanus/display/AlphaChangingParameters.as" filetype="as" />
+        </project_folder>
+        <project_folder name="customerDesktop" expanded="true">
+            <project_folder name="phpAndMySQL" expanded="true">
+                <project_folder name="imagesNamesSelector" expanded="false">
+                    <project_file path="./nijanus/customerDesktop/phpAndMySQL/imagesNamesSelector/ImagesNamesSelectorParameters.as" filetype="as" />
+                    <project_file path="./nijanus/customerDesktop/phpAndMySQL/imagesNamesSelector/ChoiceScreenType.as" filetype="as" />
+                    <project_file path="./nijanus/customerDesktop/phpAndMySQL/imagesNamesSelector/ImagesLineType.as" filetype="as" />
+                    <project_file path="./nijanus/customerDesktop/phpAndMySQL/imagesNamesSelector/ImagesNamesFilteringType.as" filetype="as" />
+                    <project_file path="./nijanus/customerDesktop/phpAndMySQL/imagesNamesSelector/ImagesNamesOrderingType.as" filetype="as" />
+                    <project_file path="./nijanus/customerDesktop/phpAndMySQL/imagesNamesSelector/ImagesNamesSelector.as" filetype="as" />
+                    <project_file path="./nijanus/customerDesktop/phpAndMySQL/imagesNamesSelector/MySQLImagesArticlesSelector.as" filetype="as" />
+                    <project_file path="./nijanus/customerDesktop/phpAndMySQL/imagesNamesSelector/MySQLImagesArticlesFilteredByCategoriesSelector.as" filetype="as" />
+                </project_folder>
+                <project_folder name="diskNotesSelector" expanded="false">
+                    <project_file path="./nijanus/customerDesktop/phpAndMySQL/diskNotesSelector/MySQLDiskSecondTypeNotesSelector.as" filetype="as" />
+                    <project_file path="./nijanus/customerDesktop/phpAndMySQL/diskNotesSelector/DiskNotesType.as" filetype="as" />
+                    <project_file path="./nijanus/customerDesktop/phpAndMySQL/diskNotesSelector/MySQLDiskFirstTypeNotesSelector.as" filetype="as" />
+                    <project_file path="./nijanus/customerDesktop/phpAndMySQL/diskNotesSelector/DiskNotesSelector.as" filetype="as" />
+                </project_folder>
+                <project_file path="./nijanus/customerDesktop/phpAndMySQL/SlideType.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/phpAndMySQL/DiskCategory.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/phpAndMySQL/DiskGroup.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/phpAndMySQL/MySQLDiskDescriptionSelector.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/phpAndMySQL/MySQLDiskVarietiesCharacteristicsSelector.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/phpAndMySQL/MySQLDiskVarietiesCostsSelector.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/phpAndMySQL/MySQLMenuButtonsLabelsSelector.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/phpAndMySQL/MySQLParameters.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/phpAndMySQL/MySQLDiskGroupCodeSelector.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/phpAndMySQL/DiskSlidesFilesURLsSelector.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/phpAndMySQL/MediaPlayerOpener.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/phpAndMySQL/MySQLDiskVarietiesSalesDataSelector.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/phpAndMySQL/MySQLDiskVarietySaleDataToShoppingCartAdder.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/phpAndMySQL/DiskVarietySaleData.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/phpAndMySQL/WarehouseType.as" filetype="as" />
+            </project_folder>
+            <project_folder name="utils" expanded="false">
+                <project_file path="./nijanus/customerDesktop/utils/SlideFilePathAndTypeInformation.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/utils/ImageFilePathAndArticleInformation.as" filetype="as" />
+            </project_folder>
+            <project_folder name="text" expanded="false">
+                <project_file path="./nijanus/customerDesktop/text/TextParameters.as" filetype="as" />
+            </project_folder>
+            <project_folder name="display" expanded="false">
+                <project_file path="./nijanus/customerDesktop/display/InformationScreen.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/display/ChoiceScreen.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/display/MediaPlayerScreen.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/display/MediaPlayerShowingStatus.as" filetype="as" />
+                <project_file path="./nijanus/customerDesktop/display/ShopingCartScreen.as" filetype="as" />
+            </project_folder>
+        </project_folder>
+        <project_folder name="utils" expanded="false">
+            <project_file path="./nijanus/utils/FilePathInformation.as" filetype="as" />
+            <project_file path="./nijanus/utils/Tracer.as" filetype="as" />
+        </project_folder>
+        <project_folder name="text" expanded="false">
+            <project_file path="./nijanus/text/TahomaFontParameters.as" filetype="as" />
+            <project_file path="./nijanus/text/FontOutline.as" filetype="as" />
+            <project_file path="./nijanus/text/FontParameters.as" filetype="as" />
+            <project_file path="./nijanus/text/SymbolSize.as" filetype="as" />
+        </project_folder>
+    </project_folder>
+    <project_file path="./CustomerDesktop.fla" filetype="fla" profile="" def_file="true" />
+    <project_file path="./nijanus/customerDesktop/CustomerDesktop.as" filetype="as" />
+</flash_project>

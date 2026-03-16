@@ -1,0 +1,778 @@
+﻿<MySQLParametersSettings>
+
+	<!--=====================================================================-->
+	<!--URL-адрес компьютера-сервера.-->
+
+	<!--Протокол.-->
+	<Protocol>
+		http
+	</Protocol>
+
+	<!--Имя или сетевой адрес компьютера-сервера.-->
+	<ServerNameOrNetworkAddress>
+		192.168.1.4
+	</ServerNameOrNetworkAddress>
+
+	<!--Путь к директорию, хранящему документы на компьютере-сервере.-->
+	<ServerDocumentRoot>
+		U:/home/192.168.1.4/www
+	</ServerDocumentRoot>
+
+	<!--=====================================================================-->
+	<!--URL-адрес компьютера-клиента.-->
+
+	<!--IP-адрес локального хоста.-->
+	<Localhost>
+		localhost
+	</Localhost>
+
+	<!--Путь к директорию, хранящему документы на компьютере-клиенте.-->
+	<ClientDocumentRoot>
+		U:/home/localhost/www
+	</ClientDocumentRoot>
+
+	<!--=====================================================================-->
+	<!--Aтрибуты соединения с базой данных MySQL.-->
+
+	<!--Имя хоста.-->
+	<HostName>
+		localhost
+	</HostName>
+
+	<!--Имя пользователя.-->
+	<UserName>
+		root
+	</UserName>
+
+	<!--Пароль пользователя.-->
+	<UserPassword>
+	</UserPassword>
+
+	<!--Имя базы данных.-->
+	<DatabaseName>
+		db_TA7
+	</DatabaseName>
+
+	<!--Название набора символов,
+	используемого для интерпретации байтов в базе данных.-->
+	<DatabaseCharSetName>
+		windows-1251
+	</DatabaseCharSetName>
+
+	<!--=====================================================================-->
+	<!--Мультимедиа-файлы дисков.-->
+
+	<!--Комьютер-хранилище файлов кадров фильмов дисков - SERVER или CLIENT.-->
+	<DisksFramesFilesWarehouse>
+		SERVER
+	</DisksFramesFilesWarehouse>
+
+	<!--Комьютер-хранилище видео-файлов дисков - SERVER или CLIENT.-->
+	<DisksVideosFilesWarehouse>
+		CLIENT
+	</DisksVideosFilesWarehouse>
+
+	<!--Комьютер-хранилище аудио-файлов дисков - SERVER или CLIENT.-->
+	<DisksAudiosFilesWarehouse>
+		SERVER
+	</DisksAudiosFilesWarehouse>
+
+
+	<!--Путь PHP-файла запроса выборщика URL-адресов
+	слайдов определённого типа диска.-->
+	<DiskSlidesFilesURLsSelectorRequestPHPFilePath>
+		RequestsPHPFiles/SelectDiskSlidesFilesURLs.php
+	</DiskSlidesFilesURLsSelectorRequestPHPFilePath>
+
+
+	<!--Путь к директорию, харанящему файлы изображений дисков.-->
+	<DisksImagesFilesDirectoryPath>
+		Pic
+	</DisksImagesFilesDirectoryPath>
+
+	<!--Путь к директорию, харанящему файлы кадров фильмов дисков.-->
+	<DisksFramesFilesDirectoryPath>
+		Scrn
+	</DisksFramesFilesDirectoryPath>
+
+	<!--Путь к директорию, харанящему видео-файлы дисков.-->
+	<DisksVideosFilesDirectoryPath>
+		Video
+	</DisksVideosFilesDirectoryPath>
+
+	<!--Путь к директорию, харанящему аудио-файлы дисков.-->
+	<DisksAudiosFilesDirectoryPath>
+		Audio
+	</DisksAudiosFilesDirectoryPath>
+
+
+	<!--Аффикс имени файла изображения диска.-->
+	<DiskImageFileNameAffix>
+		_pic
+	</DiskImageFileNameAffix>
+
+	<!--Аффикс имени файла кадра фильма диска.-->
+	<DiskFrameFileNameAffix>
+		_scrshot
+	</DiskFrameFileNameAffix>
+
+	<!--Аффикс имени видео-файла диска.-->
+	<DiskVideoFileNameAffix>
+		_video
+	</DiskVideoFileNameAffix>
+
+	<!--Аффикс имени аудио-файла диска.-->
+	<DiskAudioFileNameAffix>
+		_audio
+	</DiskAudioFileNameAffix>
+
+
+	<!--Расширение файла изображения диска.-->
+	<DiskImageFileExtension>
+		jpg
+	</DiskImageFileExtension>
+
+	<!--Расширение файла кадра фильма диска.-->
+	<DiskFrameFileExtension>
+		jpg
+	</DiskFrameFileExtension>
+
+	<!--Расширение видео-файла диска.-->
+	<DiskVideoFileExtension>
+		avi
+	</DiskVideoFileExtension>
+
+	<!--Расширение аудио-файла диска.-->
+	<DiskAudioFileExtension>
+		mp3
+	</DiskAudioFileExtension>
+
+	<!--=====================================================================-->
+	<!--Пути PHP-файлов запросов к базе данных MySQL.-->
+
+	<!--Путь PHP-файла запроса к базе данных MySQL
+	выборщика текстовых меток кнопок меню.-->
+	<MenuButtonsLabelsSelectorRequestPHPFilePath>
+		RequestsPHPFiles/SelectMenuButtonsLabels.php
+	</MenuButtonsLabelsSelectorRequestPHPFilePath>
+
+	<!--Путь PHP-файла запроса к базе данных MySQL
+	выборщика артикулов изображений из таблиц MySQL.-->
+	<ImagesArticlesSelectorRequestPHPFilePath>
+		RequestsPHPFiles/SelectImagesArticles.php
+	</ImagesArticlesSelectorRequestPHPFilePath>
+
+	<!--Путь PHP-файла запроса к базе данных MySQL
+	выборщика артикулов изображений, отфильтрованных по категоиям,
+	из таблиц MySQL.-->
+	<ImagesArticlesFilteredByCategoriesSelectorRequestPHPFilePath>
+		RequestsPHPFiles/SelectImagesArticlesFilteredByCategories.php
+	</ImagesArticlesFilteredByCategoriesSelectorRequestPHPFilePath>
+
+	<!--Путь PHP-файла запроса к базе данных MySQL
+	выборщика описания диска из таблиц MySQL.-->
+	<DiskDescriptionSelectorRequestPHPFilePath>
+		RequestsPHPFiles/SelectDiskDescription.php
+	</DiskDescriptionSelectorRequestPHPFilePath>
+
+	<!--Путь PHP-файла запроса к базе данных MySQL
+	выборщика кода группы диска из таблиц MySQL.-->
+	<DiskGroupCodeSelectorRequestPHPFilePath>
+		RequestsPHPFiles/SelectDiskGroupCode.php
+	</DiskGroupCodeSelectorRequestPHPFilePath>
+
+	<!--Путь PHP-файла запроса к базе данных MySQL
+	выборщика примечаний первого типа диска из таблиц MySQL.-->
+	<DiskFirstTypeNotesSelectorRequestPHPFilePath>
+		RequestsPHPFiles/SelectDiskFirstTypeNotes.php
+	</DiskFirstTypeNotesSelectorRequestPHPFilePath>
+
+	<!--Путь PHP-файла запроса к базе данных MySQL
+	выборщика примечаний второго типа диска из таблиц MySQL.-->
+	<DiskSecondTypeNotesSelectorRequestPHPFilePath>
+		RequestsPHPFiles/SelectDiskSecondTypeNotes.php
+	</DiskSecondTypeNotesSelectorRequestPHPFilePath>
+
+	<!--Путь PHP-файла запроса к базе данных MySQL
+	выборщика характеристик разновидностей дисков из таблиц MySQL.-->
+	<DiskVarietiesCharacteristicsSelectorRequestPHPFilePath>
+		RequestsPHPFiles/SelectDiskVarietiesCharacteristics.php
+	</DiskVarietiesCharacteristicsSelectorRequestPHPFilePath>
+
+	<!--Путь PHP-файла запроса к базе данных MySQL
+	выборщика цен разновидностей дисков из таблиц MySQL.-->
+	<DiskVarietiesCostsSelectorRequestPHPFilePath>
+		RequestsPHPFiles/SelectDiskVarietiesCosts.php
+	</DiskVarietiesCostsSelectorRequestPHPFilePath>
+
+	<!--Путь PHP-файла запроса к базе данных MySQL
+	выборщика данных продаж разновидностей дисков из таблиц MySQL.-->
+	<DiskVarietiesSalesDataSelectorRequestPHPFilePath>
+		RequestsPHPFiles/SelectDiskVarietiesSalesData.php
+	</DiskVarietiesSalesDataSelectorRequestPHPFilePath>
+
+	<!--Путь PHP-файла запроса к базе данных MySQL
+	добавителя данных продажи разновидности диска
+	в корзину покупок в таблицах MySQL.-->
+	<DiskVarietySaleDataToShoppingCartAdderRequestPHPFilePath>
+		RequestsPHPFiles/AddDiskVarietySaleDataToShoppingCart.php
+	</DiskVarietySaleDataToShoppingCartAdderRequestPHPFilePath>
+
+	<!--=====================================================================-->
+	<!--Таблица кнопок меню.-->
+
+	<!--Имя таблицы кнопок меню.-->
+	<MenuButtonsTableName>
+		v8_reference170
+	</MenuButtonsTableName>
+
+	<!--Имя столбца текстовых меток в таблице кнопок меню.-->
+	<MenuButtonsLablesColumnName>
+		V8_Description
+	</MenuButtonsLablesColumnName>
+
+	<!--Имя столбца в таблице кнопок меню, упорядочивающего текстовые метки.-->
+	<MenuButtonsLablesOrderingColumnName>
+		V8_Code
+	</MenuButtonsLablesOrderingColumnName>
+
+	<!--Направление упорядочения текстовых меток в таблице кнопок меню -
+	признак упорядочения текстовых меток в таблице кнопок меню
+	по возрастанию упорядочивающего столбца:
+	1 - упорядочение по возрастанию упорядочивающего столбца,
+	0 - упорядочение по убыванию упорядочивающего столбца.-->
+	<MenuButtonsLablesOrderingAscendantSign>
+		1
+	</MenuButtonsLablesOrderingAscendantSign>
+
+	<!--=====================================================================-->
+	<!--Таблица розничных товаров.-->
+
+	<!--Имя таблицы розничных товаров.-->
+	<RetailGoodsTableName>
+		v8_accumreg845
+	</RetailGoodsTableName>
+
+	<!--Имя столбца идентивикаторов номенклатур в таблице розничных товаров.-->
+	<RetailGoodsNomenclaturesIDsColumnName>
+		V8_Fld5206
+	</RetailGoodsNomenclaturesIDsColumnName>
+
+	<!--Имя столбца идентивикаторов разновидностей дисков
+	в таблице розничных товаров.-->
+	<RetailGoodsDisksVarietiesIDsColumnName>
+		V8_Fld5207
+	</RetailGoodsDisksVarietiesIDsColumnName>
+
+	<!--Имя столбца количеств в таблице розничных товаров.-->
+	<RetailGoodsCountsColumnName>
+		V8_Fld5210
+	</RetailGoodsCountsColumnName>
+
+	<!--Имя столбца цен в таблице розничных товаров.-->
+	<RetailGoodsCostsColumnName>
+		V8_Fld5211
+	</RetailGoodsCostsColumnName>
+
+	<!--Имя столбца номеров ячеек в таблице розничных товаров.-->
+	<RetailGoodsCellsNumbersColumnName>
+		V8_Fld5205
+	</RetailGoodsCellsNumbersColumnName>
+
+	<!--=====================================================================-->
+	<!--Таблица номенклатур.-->
+
+	<!--Имя таблицы номенклатур.-->
+	<NomenclaturesTableName>
+		v8_reference118
+	</NomenclaturesTableName>
+
+	<!--Имя столбца идентивикаторов в таблице номенклатур.-->
+	<NomenclaturesIDsColumnName>
+		V8_ID
+	</NomenclaturesIDsColumnName>
+
+	<!--Имя столбца артикулов в таблице номенклатур.-->
+	<NomenclaturesArticlesColumnName>
+		V8_Fld312
+	</NomenclaturesArticlesColumnName>
+
+	<!--Имя столбца описаний в таблице номенклатур.-->
+	<NomenclaturesDescriptionsColumnName>
+		V8_Fld338
+	</NomenclaturesDescriptionsColumnName>
+
+	<!--Имя столбца названий стран в таблице номенклатур.-->
+	<NomenclaturesCountriesNamesColumnName>
+		V8_Fld321
+	</NomenclaturesCountriesNamesColumnName>
+
+
+	<!--Имя столбца дат релизов в таблице номенклатур.-->
+	<NomenclaturesReleasesDatesColumnName>
+		V8_Fld339
+	</NomenclaturesReleasesDatesColumnName>
+
+	<!--Имя столбца наименований в таблице номенклатур.-->
+	<NomenclaturesNamesColumnName>
+		V8_Description
+	</NomenclaturesNamesColumnName>
+
+
+	<!--Направление упорядочения артикулов по дате в таблице номенклатур -
+	признак упорядочения артикулов в таблице номенклатур по возрастанию даты:
+	1 - упорядочение по возрастанию даты,
+	0 - упорядочение по убыванию даты.-->
+	<NomenclaturesArticlesDateOrderingAscentSign>
+		0
+	</NomenclaturesArticlesDateOrderingAscentSign>
+
+	<!--Направление упорядочения артикулов по наименованию
+	в таблице номенклатур - признак упорядочения артикулов
+	в таблице номенклатур по возрастанию наименования:
+	1 - упорядочение по возрастанию наименования,
+	0 - упорядочение по убыванию наименования.-->
+	<NomenclaturesArticlesNameOrderingAscentSign>
+		1
+	</NomenclaturesArticlesNameOrderingAscentSign>
+
+
+	<!--Имя столбца признаков витрины в таблице номенклатур.-->
+	<NomenclaturesShopWindowFlagsColumnName>
+		V8_Fld344
+	</NomenclaturesShopWindowFlagsColumnName>
+
+	<!--Имя столбца признаков новинок в таблице номенклатур.-->
+	<NomenclaturesNoveltiesFlagsColumnName>
+		V8_Fld342
+	</NomenclaturesNoveltiesFlagsColumnName>
+
+	<!--Имя столбца признаков стран в таблице номенклатур.-->
+	<NomenclaturesCountriesFlagsColumnName>
+		V8_Fld343
+	</NomenclaturesCountriesFlagsColumnName>
+
+	<!--Имя столбца признаков групп в таблице номенклатур.-->
+	<NomenclaturesGroupsFlagsColumnName>
+		V8_Fld341
+	</NomenclaturesGroupsFlagsColumnName>
+
+	<!--=====================================================================-->
+	<!--Таблица категорий товаров и номенклатур.-->
+
+	<!--Имя таблицы категорий товаров и номенклатур.-->
+	<GoodsCategoriesAndNomenclaturesTableName>
+		v8_reference118_vt119
+	</GoodsCategoriesAndNomenclaturesTableName>
+
+	<!--Имя столбца идентивикаторов номенклатур
+	в таблице категорий товаров и номенклатур.-->
+	<GoodsCategoriesAndNomenclaturesNomenclaturesIDsColumnName>
+		V8_ID
+	</GoodsCategoriesAndNomenclaturesNomenclaturesIDsColumnName>
+
+	<!--Имя столбца идентивикаторов категорий товаров
+	в таблице категорий товаров и номенклатур.-->
+	<GoodsCategoriesAndNomenclaturesGoodsCategoriesIDsColumnName>
+		V8_Fld345
+	</GoodsCategoriesAndNomenclaturesGoodsCategoriesIDsColumnName>
+
+	<!--=====================================================================-->
+	<!--Таблица категорий товаров.-->
+
+	<!--Имя таблицы категорий товаров.-->
+	<GoodsCategoriesTableName>
+		v8_reference168
+	</GoodsCategoriesTableName>
+
+	<!--Имя столбца идентивикаторов в таблице категорий товаров.-->
+	<GoodsCategoriesIDsColumnName>
+		V8_ID
+	</GoodsCategoriesIDsColumnName>
+
+	<!--Имя столбца кодов в таблице категорий товаров.-->
+	<GoodsCategoriesCodesColumnName>
+		V8_Code
+	</GoodsCategoriesCodesColumnName>
+
+	<!--Имя столбца наименований в таблице категорий товаров.-->
+	<GoodsCategoriesNamesColumnName>
+		V8_Description
+	</GoodsCategoriesNamesColumnName>
+
+	<!--=====================================================================-->
+	<!--Таблица ссылок свойств.-->
+
+	<!--Имя таблицы ссылок свойств.-->
+	<PropertiesReferencesTableName>
+		v8_inforeg715
+	</PropertiesReferencesTableName>
+
+	<!--Имя столбца идентивикаторов номенклатур в таблице ссылок свойств.-->
+	<PropertiesReferencesNomenclaturesIDsColumnName>
+		V8_Fld4278_RRef
+	</PropertiesReferencesNomenclaturesIDsColumnName>
+
+	<!--Имя столбца идентивикаторов значений свойств
+	в таблице ссылок свойств.-->
+	<PropertiesReferencesPropertiesValuesIDsColumnName>
+		V8_Fld4280_RRef
+	</PropertiesReferencesPropertiesValuesIDsColumnName>
+
+	<!--=====================================================================-->
+	<!--Таблица значений свойств.-->
+
+	<!--Имя таблицы значений свойств.-->
+	<PropertiesValuesTableName>
+		v8_reference88
+	</PropertiesValuesTableName>
+
+	<!--Имя столбца идентивикаторов в таблице значений свойств.-->
+	<PropertiesValuesIDsColumnName>
+		V8_ID
+	</PropertiesValuesIDsColumnName>
+
+	<!--Имя столбца наименований в таблице значений свойств.-->
+	<PropertiesValuesNamesColumnName>
+		V8_Description
+	</PropertiesValuesNamesColumnName>
+
+	<!--=====================================================================-->
+	<!--Таблица групп товаров.
+
+	<!--Имя таблицы групп товаров.-->
+	<GoodsGroupsTableName>
+		v8_reference167
+	</GoodsGroupsTableName>
+
+	<!--Имя столбца кодов в таблице групп товаров.-->
+	<GoodsGroupsCodesColumnName>
+		V8_Code
+	</GoodsGroupsCodesColumnName>
+
+	<!--Имя столбца наименований в таблице групп товаров.-->
+	<GoodsGroupsNamesColumnName>
+		V8_Description
+	</GoodsGroupsNamesColumnName>
+
+	<!--=====================================================================-->
+	<!--Таблица разновидностей дисков.-->
+
+	<!--Направление упорядочения разновидностей дисков по идентификатору.-->
+	<DisksVarietiesIDOrderingAscentSign>
+		1
+	</DisksVarietiesIDOrderingAscentSign>
+
+	<!--=====================================================================-->
+	<!--Таблица ссылок разновидностей дисков.-->
+
+	<!--Имя таблицы ссылок разновидностей дисков.-->
+	<DisksVarietiesReferencesTableName>
+		v8_inforeg793
+	</DisksVarietiesReferencesTableName>
+
+	<!--Имя столбца идентивикаторов номенклатур
+	в таблице ссылок разновидностей дисков.-->
+	<DisksVarietiesReferencesNomenclaturesIDsColumnName>
+		V8_Fld4743
+	</DisksVarietiesReferencesNomenclaturesIDsColumnName>
+
+	<!--Имя столбца идентивикаторов характеристик разновидностей дисков
+	в таблице ссылок разновидностей дисков.-->
+	<DisksVarietiesReferencesDisksVarietiesCharacteristicsIDsColumnName>
+		V8_Fld4745
+	</DisksVarietiesReferencesDisksVarietiesCharacteristicsIDsColumnName>
+
+	<!--Имя столбца идентивикаторов разновидностей дисков
+	в таблице ссылок разновидностей дисков.-->
+	<DisksVarietiesReferencesDisksVarietiesIDsColumnName>
+		V8_Fld4744
+	</DisksVarietiesReferencesDisksVarietiesIDsColumnName>
+
+	<!--=====================================================================-->
+	<!--Таблица названий характеристик дисков.-->
+
+	<!--Имя таблицы названий характеристик дисков.-->
+	<DisksCharacteristicsNamesTableName>
+		v8_reference165
+	</DisksCharacteristicsNamesTableName>
+
+	<!--Имя столбца наименований групп
+	в таблице названий характеристик дисков.-->
+	<DisksCharacteristicsNamesGroupsNamesColumnName>
+		V8_Description
+	</DisksCharacteristicsNamesGroupsNamesColumnName>
+
+	<!--=====================================================================-->
+	<!--Таблица характеристик разновидностей дисков.-->
+
+	<!--Имя таблицы характеристик разновидностей дисков.-->
+	<DisksVarietiesCharacteristicsTableName>
+		v8_reference165
+	</DisksVarietiesCharacteristicsTableName>
+
+	<!--Имя столбца идентификаторов
+	в таблице характеристик разновидностей дисков.-->
+	<DisksVarietiesCharacteristicsIDsColumnName>
+		V8_ID
+	</DisksVarietiesCharacteristicsIDsColumnName>
+
+	<!--=====================================================================-->
+	<!--Таблица корзины покупок.-->
+
+	<!--Имя таблицы корзины покупок.-->
+	<ShoppingCartTableName>
+		korz
+	</ShoppingCartTableName>
+
+	<!--Имя столбца идентивикаторов в таблице корзины покупок.-->
+	<ShoppingCartIDsColumnName>
+		id
+	</ShoppingCartIDsColumnName>
+
+	<!--Имя столбца идентивикаторов номенклатур в таблице корзины покупок.-->
+	<ShoppingCartNomenclaturesIDsColumnName>
+		disk_id
+	</ShoppingCartNomenclaturesIDsColumnName>
+
+	<!--Имя столбца идентивикаторов разновидностей дисков
+	в таблице корзины покупок.-->
+	<ShoppingCartDisksVarietiesIDsColumnName>
+		raz_id
+	</ShoppingCartDisksVarietiesIDsColumnName>
+
+	<!--Имя столбца цен в таблице корзины покупок.-->
+	<ShoppingCartCostsColumnName>
+		cena
+	</ShoppingCartCostsColumnName>
+
+	<!--Имя столбца номеров ячеек в таблице корзины покупок.-->
+	<ShoppingCartCellsNumbersColumnName>
+		cell_num
+	</ShoppingCartCellsNumbersColumnName>
+
+	<!--=====================================================================-->
+	<!--Массивы имён столбцов таблиц.-->
+
+	<!--Строка-разделитель элементов массивов.-->
+	<ArraysSeparatorString>
+		|
+	</ArraysSeparatorString>
+
+	<!--Массив имён столбцов названий
+	в таблице названий характеристик дисков.-->
+	<DisksCharacteristicsNamesNamesColumnsNames>
+
+		<!--Имя столбца названия #0 в таблице названий характеристик дисков.-->
+		<DisksCharacteristicsNamesNameColumnName>
+			V8_Fld559
+		</DisksCharacteristicsNamesNameColumnName>
+
+		<!--Имя столбца названия #1 в таблице названий характеристик дисков.-->
+		<DisksCharacteristicsNamesNameColumnName>
+			V8_Fld560
+		</DisksCharacteristicsNamesNameColumnName>
+
+		<!--Имя столбца названия #2 в таблице названий характеристик дисков.-->
+		<DisksCharacteristicsNamesNameColumnName>
+			V8_Fld561
+		</DisksCharacteristicsNamesNameColumnName>
+
+		<!--Имя столбца названия #3 в таблице названий характеристик дисков.-->
+		<DisksCharacteristicsNamesNameColumnName>
+			V8_Fld562
+		</DisksCharacteristicsNamesNameColumnName>
+
+		<!--Имя столбца названия #4 в таблице названий характеристик дисков.-->
+		<DisksCharacteristicsNamesNameColumnName>
+			V8_Fld563
+		</DisksCharacteristicsNamesNameColumnName>
+
+		<!--Имя столбца названия #5 в таблице названий характеристик дисков.-->
+		<DisksCharacteristicsNamesNameColumnName>
+			V8_Fld564
+		</DisksCharacteristicsNamesNameColumnName>
+
+		<!--Имя столбца названия #6 в таблице названий характеристик дисков.-->
+		<DisksCharacteristicsNamesNameColumnName>
+			V8_Fld565
+		</DisksCharacteristicsNamesNameColumnName>
+
+		<!--Имя столбца названия #7 в таблице названий характеристик дисков.-->
+		<DisksCharacteristicsNamesNameColumnName>
+			V8_Fld566
+		</DisksCharacteristicsNamesNameColumnName>
+
+		<!--Имя столбца названия #8 в таблице названий характеристик дисков.-->
+		<DisksCharacteristicsNamesNameColumnName>
+			V8_Fld567
+		</DisksCharacteristicsNamesNameColumnName>
+
+		<!--Имя столбца названия #9 в таблице названий характеристик дисков.-->
+		<DisksCharacteristicsNamesNameColumnName>
+			V8_Fld568
+		</DisksCharacteristicsNamesNameColumnName>
+
+		<!--Имя столбца названия #10 в таблице названий характеристик дисков.-->
+		<DisksCharacteristicsNamesNameColumnName>
+			V8_Fld569
+		</DisksCharacteristicsNamesNameColumnName>
+
+		<!--Имя столбца названия #11 в таблице названий характеристик дисков.-->
+		<DisksCharacteristicsNamesNameColumnName>
+			V8_Fld570
+		</DisksCharacteristicsNamesNameColumnName>
+
+		<!--Имя столбца названия #12 в таблице названий характеристик дисков.-->
+		<DisksCharacteristicsNamesNameColumnName>
+			V8_Fld571
+		</DisksCharacteristicsNamesNameColumnName>
+
+		<!--Имя столбца названия #13 в таблице названий характеристик дисков.-->
+		<DisksCharacteristicsNamesNameColumnName>
+			V8_Fld572
+		</DisksCharacteristicsNamesNameColumnName>
+
+		<!--Имя столбца названия #14 в таблице названий характеристик дисков.-->
+		<DisksCharacteristicsNamesNameColumnName>
+			V8_Fld573
+		</DisksCharacteristicsNamesNameColumnName>
+
+	</DisksCharacteristicsNamesNamesColumnsNames>
+	<!--Массив имён столбцов названий
+	в таблице названий характеристик дисков.-->
+
+	<!--Массив имён столбцов характеристик
+	в таблице характеристик разновидностей дисков.-->
+	<DisksVarietiesCharacteristicsCharacteristicsColumnsNames>
+
+		<!--Имя столбца характеристики #0
+		в таблице характеристик разновидностей дисков.-->
+		<DisksVarietiesCharacteristicsCharacteristicColumnName>
+			V8_Fld559
+		</DisksVarietiesCharacteristicsCharacteristicColumnName>
+
+		<!--Имя столбца характеристики #1
+		в таблице характеристик разновидностей дисков.-->
+		<DisksVarietiesCharacteristicsCharacteristicColumnName>
+			V8_Fld560
+		</DisksVarietiesCharacteristicsCharacteristicColumnName>
+
+		<!--Имя столбца характеристики #2
+		в таблице характеристик разновидностей дисков.-->
+		<DisksVarietiesCharacteristicsCharacteristicColumnName>
+			V8_Fld561
+		</DisksVarietiesCharacteristicsCharacteristicColumnName>
+
+		<!--Имя столбца характеристики #3
+		в таблице характеристик разновидностей дисков.-->
+		<DisksVarietiesCharacteristicsCharacteristicColumnName>
+			V8_Fld562
+		</DisksVarietiesCharacteristicsCharacteristicColumnName>
+
+		<!--Имя столбца характеристики #4
+		в таблице характеристик разновидностей дисков.-->
+		<DisksVarietiesCharacteristicsCharacteristicColumnName>
+			V8_Fld563
+		</DisksVarietiesCharacteristicsCharacteristicColumnName>
+
+		<!--Имя столбца характеристики #5
+		в таблице характеристик разновидностей дисков.-->
+		<DisksVarietiesCharacteristicsCharacteristicColumnName>
+			V8_Fld564
+		</DisksVarietiesCharacteristicsCharacteristicColumnName>
+
+		<!--Имя столбца характеристики #6
+		в таблице характеристик разновидностей дисков.-->
+		<DisksVarietiesCharacteristicsCharacteristicColumnName>
+			V8_Fld565
+		</DisksVarietiesCharacteristicsCharacteristicColumnName>
+
+		<!--Имя столбца характеристики #7
+		в таблице характеристик разновидностей дисков.-->
+		<DisksVarietiesCharacteristicsCharacteristicColumnName>
+			V8_Fld566
+		</DisksVarietiesCharacteristicsCharacteristicColumnName>
+
+		<!--Имя столбца характеристики #8
+		в таблице характеристик разновидностей дисков.-->
+		<DisksVarietiesCharacteristicsCharacteristicColumnName>
+			V8_Fld567
+		</DisksVarietiesCharacteristicsCharacteristicColumnName>
+
+		<!--Имя столбца характеристики #9
+		в таблице характеристик разновидностей дисков.-->
+		<DisksVarietiesCharacteristicsCharacteristicColumnName>
+			V8_Fld568
+		</DisksVarietiesCharacteristicsCharacteristicColumnName>
+
+		<!--Имя столбца характеристики #10
+		в таблице характеристик разновидностей дисков.-->
+		<DisksVarietiesCharacteristicsCharacteristicColumnName>
+			V8_Fld569
+		</DisksVarietiesCharacteristicsCharacteristicColumnName>
+
+		<!--Имя столбца характеристики #11
+		в таблице характеристик разновидностей дисков.-->
+		<DisksVarietiesCharacteristicsCharacteristicColumnName>
+			V8_Fld570
+		</DisksVarietiesCharacteristicsCharacteristicColumnName>
+
+		<!--Имя столбца характеристики #12
+		в таблице характеристик разновидностей дисков.-->
+		<DisksVarietiesCharacteristicsCharacteristicColumnName>
+			V8_Fld571
+		</DisksVarietiesCharacteristicsCharacteristicColumnName>
+
+		<!--Имя столбца характеристики #13
+		в таблице характеристик разновидностей дисков.-->
+		<DisksVarietiesCharacteristicsCharacteristicColumnName>
+			V8_Fld572
+		</DisksVarietiesCharacteristicsCharacteristicColumnName>
+
+		<!--Имя столбца характеристики #14
+		в таблице характеристик разновидностей дисков.-->
+		<DisksVarietiesCharacteristicsCharacteristicColumnName>
+			V8_Fld573
+		</DisksVarietiesCharacteristicsCharacteristicColumnName>
+
+	</DisksVarietiesCharacteristicsCharacteristicsColumnsNames>
+	<!--Массив имён столбцов характеристик
+	в таблице характеристик разновидностей дисков.-->
+
+	<!--=====================================================================-->
+	<!--Медиа-плеер.-->
+
+	<!--Путь к директорию на localhost клиента,
+	хранящему файлы медиа-плеера.-->
+	<MediaPlayerDirectoryPath>
+		ZMediaPlayer_32
+	</MediaPlayerDirectoryPath>
+
+	<!--Имя файла PHP-файла запроса открывателя медиа-плеера
+	в директории на localhost, хранящем файлы медиа-плеера.-->
+	<MediaPlayerOpenerRequestPHPFileName>
+		OpenMediaPlayer.php
+	</MediaPlayerOpenerRequestPHPFileName>
+
+
+	<!--Имя файла медиа-плеера.-->
+	<MediaPlayerFileName>
+		ZMediaPlayer.exe
+	</MediaPlayerFileName>
+
+	<!--Имя файла настроек медиа-плеера.-->
+	<MediaPlayerSettingsFileName>
+		ZMediaPayerSettings.xml
+	</MediaPlayerSettingsFileName>
+
+	<!--Имя файла статуса показа медиа-плеера:
+	в этом файле указыванется, запущен ли в данный момент медиа-плеер
+	или нет.-->
+	<MediaPlayerShowingStatusFileName>
+		ZMediaPayerShowingStatus.txt
+	</MediaPlayerShowingStatusFileName>
+
+	<!--=====================================================================-->
+
+</MySQLParametersSettings>

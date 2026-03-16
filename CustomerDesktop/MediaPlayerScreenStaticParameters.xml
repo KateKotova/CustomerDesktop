@@ -1,0 +1,44 @@
+﻿<MediaPlayerScreenStaticParameters>
+
+	<!--Интервал в миллисекундах таймера закрытия - интервал
+	между наступлением паузы или остановки проигрывания меда-файла
+	и моментом закрытия плеера, который считается бездействующим.-->
+	<ClosingTimerDelay>
+		300000
+	</ClosingTimerDelay>
+
+	<!--Время в миллисекундах длительности эффекта изменения видимости -
+	время, в течение которого осуществляется эффект появления
+	или исчезновения формы.-->
+	<VisibleChangingEffectTime>
+		200
+	</VisibleChangingEffectTime>
+
+	<!--Интервал в миллисекундах таймера эффекта изменения видимости.-->
+	<VisibleChangingEffectTimerDeley>
+		20
+	</VisibleChangingEffectTimerDeley>
+
+	<!--Интервал в миллисекундах таймера сокрытия формы звука -
+	интервал между моментом покидания кнопки звука
+	или формы звука курсором мыши и моментом сокрытия формы звука.-->
+	<SoundFormHidingTimerDeley>
+		1000
+	</SoundFormHidingTimerDeley>
+
+	<!--Доля ширины кнопки плеера от её высоты.-->
+	<ButtonWidthToHeightRatio>
+		1.3
+	</ButtonWidthToHeightRatio>
+
+	<!--Доля ширины трека прокрутки длительности от ширины командной панели.-->
+	<DurationTrackbarWidthToCommandPanelWidthRatio>
+		0.59
+	</DurationTrackbarWidthToCommandPanelWidthRatio>
+
+	<!--Доля высота формы звука от ширины командной панели.-->
+	<SoundFormHeightToCommandPanelWidthRatio>
+		0.31
+	</SoundFormHeightToCommandPanelWidthRatio>
+
+</MediaPlayerScreenStaticParameters>

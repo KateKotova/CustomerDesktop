@@ -1,0 +1,21 @@
+﻿<ChoiceScreenStaticParameters>
+
+	<!--Задержка в миллисекундах таймера установки типа по умолчанию -
+	задержка между последним отпусканием кнопки мыши на экране выбора
+	и установкой типа экрана выбора по умолчанию.-->
+	<DefaultTypeSettingTimerDelay>
+		300000
+	</DefaultTypeSettingTimerDelay>
+
+	<!--Коэффициент отношения ширины спрайта изображения
+	строки изображений к высоте.-->
+	<ImagesLineImageSpriteWidthToHeightRatio>
+		0.7352941176470589
+	</ImagesLineImageSpriteWidthToHeightRatio>
+
+	<!--Коэффициент отношения высоты кнопки меню к высоте экрана выбора.-->
+	<MenuButtonHeightToThisHeightRatio>
+		0.08695652173913043
+	</MenuButtonHeightToThisHeightRatio>
+
+</ChoiceScreenStaticParameters>
